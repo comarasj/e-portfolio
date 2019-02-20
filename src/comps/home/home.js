@@ -10,7 +10,7 @@ class Home extends Component {
                     Stephen Comarata
                     <div>
                         <a href={"https://github.com/comarasj"} className="ilinks"><FaGithub /></a>
-                        <a href={"https://github.com/comarasj"} className="ilinks"><FaLinkedin /></a>
+                        <a href={"https://www.linkedin.com/in/stephen-comarata-a68175180/"} className="ilinks"><FaLinkedin /></a>
                     </div>
                 </header>
 
