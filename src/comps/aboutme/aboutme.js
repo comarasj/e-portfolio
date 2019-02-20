@@ -16,7 +16,7 @@ class Aboutme extends Component {
                 <h1 className="header">About Me</h1>
                 <div className="about">
                     <div className="details">
-                        <p> My name is Stephen Comarata. I am a Computer Engineering Student at The University of Cincinnati.</p>
+                         My name is Stephen Comarata. I am a Computer Engineering Student at The University of Cincinnati.
                     </div>
                     <div className="picture">
                         <img src={headshot} alt={headshot} height={552} width={441} />
