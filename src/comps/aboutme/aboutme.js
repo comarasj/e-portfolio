@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./aboutme.css";
-//const logoImg = require( "../../static/bode_plot.PNG")
+import headshot from "../../static/headshot.JPG";
 
 class Aboutme extends Component {
     constructor() {
@@ -12,12 +12,18 @@ class Aboutme extends Component {
 
     render() {
         return (
-            <div className="about">
+            <div>
                 <h1 className="header">About Me</h1>
-                <p>Hello!</p>
-                <p> My name is Stephen Comarata. I am a Computer Engineering Student at The University of Cincinnati.
-                </p>
-           </div>
+                <div className="about">
+                    <div className="details">
+                        <p> My name is Stephen Comarata. I am a Computer Engineering Student at The University of Cincinnati.</p>
+                    </div>
+                    <div className="picture">
+                        <img src={headshot} alt={headshot} height={552} width={441} />
+                    </div>
+
+                </div>
+            </div>
         )
     }
 }

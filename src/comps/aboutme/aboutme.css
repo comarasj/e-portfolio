@@ -1,8 +1,22 @@
 .about {
     background-color: white;
     color: black;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
 .header{
     text-align: center;
+}
+
+.picture{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
 }
