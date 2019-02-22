@@ -12,7 +12,7 @@ class Aboutme extends Component {
 
     render() {
         return (
-            <div>
+            <div className="about-wrapper">
                 <h1 className="header">About Me</h1>
                 <div className="about">
                     <div className="details">

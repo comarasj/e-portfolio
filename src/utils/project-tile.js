@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './tile.css';
-class Tile extends Component {
+import './project-tile.css';
+class ProjectTile extends Component {
     render() {
         return (
             <div>
@@ -10,4 +10,4 @@ class Tile extends Component {
     }
 }
 
-export default Tile; 
+export default ProjectTile; 

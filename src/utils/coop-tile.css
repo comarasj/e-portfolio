@@ -1,0 +1,13 @@
+.coop-tile{
+    border-radius: 2px;
+    background-color: #e1e1d0;
+    width: 40%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.tile-header{
+    margin: 0.5rem;
+}

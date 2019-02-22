@@ -1,5 +1,9 @@
+.about-wrapper{
+    margin: 2rem 5rem;
+    background-color: #e1e1d0;
+}
+
 .about {
-    background-color: white;
     color: black;
     display: flex;
     flex-direction: row;
@@ -11,12 +15,13 @@
 }
 
 .picture{
-    padding: 20px;
     display: flex;
     flex-direction: column;
+    margin: 0.5em 1em;
 }
 
 .details{
     display: flex;
     flex-direction: column;
+    margin: 0.5em 1em;
 }
