@@ -16,7 +16,8 @@ class Coop extends Component {
             var semester = coop_data[i]["semester"]
             var company = coop_data[i]["company"]
             var details = coop_data[i]["details"]
-            tile_list.push(<CoopTile semester={semester}/>)
+            console.log(details)
+            tile_list.push(<CoopTile semester={semester} company={company} details={details}/>)
         }
         return (
             <div>
@@ -34,13 +35,21 @@ const coop_data =[
         "number": 1,
         "semester": "Spring 2018",
         "company": "Siemens PLM Software",
-        "details": "details here, blah blah blah"
+        "details": [
+            {id: 1, detail: "blah"},
+            {id: 2, detail: "blah"},
+            {id: 3, detail: "blah"}
+        ]
     },
     {
         "number": 2,
         "semester": "Fall 2018",
         "company": "Siemens PLM Software",
-        "details": "details here, blah blah blah"
+        "details": [
+            {id: 1, detail: "blah"},
+            {id: 2, detail: "blah"},
+            {id: 3, detail: "blah"}
+        ]
     }
 ]
 
