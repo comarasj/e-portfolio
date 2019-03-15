@@ -1,14 +1,15 @@
 {
-  "main.css": "/e-portfolio/static/css/main.ab5a028b.chunk.css",
-  "main.js": "/e-portfolio/static/js/main.b8ac849f.chunk.js",
-  "main.js.map": "/e-portfolio/static/js/main.b8ac849f.chunk.js.map",
+  "main.css": "/e-portfolio/static/css/main.b4264802.chunk.css",
+  "main.js": "/e-portfolio/static/js/main.0245162f.chunk.js",
+  "main.js.map": "/e-portfolio/static/js/main.0245162f.chunk.js.map",
   "runtime~main.js": "/e-portfolio/static/js/runtime~main.8688e81a.js",
   "runtime~main.js.map": "/e-portfolio/static/js/runtime~main.8688e81a.js.map",
-  "static/js/2.78e6a4ee.chunk.js": "/e-portfolio/static/js/2.78e6a4ee.chunk.js",
-  "static/js/2.78e6a4ee.chunk.js.map": "/e-portfolio/static/js/2.78e6a4ee.chunk.js.map",
+  "static/js/2.87d7104c.chunk.js": "/e-portfolio/static/js/2.87d7104c.chunk.js",
+  "static/js/2.87d7104c.chunk.js.map": "/e-portfolio/static/js/2.87d7104c.chunk.js.map",
   "index.html": "/e-portfolio/index.html",
-  "precache-manifest.08e23b000a17ab0f565fc7fb65851bae.js": "/e-portfolio/precache-manifest.08e23b000a17ab0f565fc7fb65851bae.js",
+  "precache-manifest.7697faafcd2db88df9dd1c65473a8803.js": "/e-portfolio/precache-manifest.7697faafcd2db88df9dd1c65473a8803.js",
   "service-worker.js": "/e-portfolio/service-worker.js",
-  "static/css/main.ab5a028b.chunk.css.map": "/e-portfolio/static/css/main.ab5a028b.chunk.css.map",
+  "static/css/main.b4264802.chunk.css.map": "/e-portfolio/static/css/main.b4264802.chunk.css.map",
+  "static/media/Stephen_Comarata_resume.pdf": "/e-portfolio/static/media/Stephen_Comarata_resume.442e540b.pdf",
   "static/media/headshot.JPG": "/e-portfolio/static/media/headshot.27235772.JPG"
 }
