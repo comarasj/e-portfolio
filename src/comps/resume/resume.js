@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import "./resume.css";
 
+import resume from "../../static/Stephen_Comarata_resume.pdf"
+
 class Resume extends Component {
     constructor() {
         super();
@@ -13,8 +15,8 @@ class Resume extends Component {
         return (
             <div>
                 <h1 className="header">Resume</h1>
-                <div>
-                    <p></p>
+                <div className="resume">
+                    <a  href={resume} classname="linkbutton">Click here</a>
                 </div>
             </div>
         )
