@@ -13,16 +13,20 @@ class ProjectTile extends Component {
     toggleExpanded = () => {
         this.setState({
             expanded: !this.state.expanded
-          });
+        });
 
     }
 
     render() {
-        if(this.state.expanded){
-        var panel = [<a className="tile-header" href={this.props.link}>{this.props.link}</a>,
-                <p className="tile-header">{this.props.description}</p>]
-        }else{
-            var panel = []
+        var panel;
+        if (this.state.expanded) {
+            panel = [
+            <p className="tile-header">{this.props.description}</p>,
+            <a className="tile-header" href={this.props.gitlink}>Repo on Github</a>
+        ]
+
+        } else {
+            panel = []
         }
 
 
