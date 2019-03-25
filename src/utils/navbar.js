@@ -10,12 +10,13 @@ class NavBar extends Component {
                     <Link to="/aboutme" className="links"> About Me</Link>
                     <Link to="/coop" className="links">Co-op</Link>
                     <Link to="/projects" className="links">Projects</Link>
-                    <Link to="/skills" className="links">Skills</Link>
                     <Link to="/resume" className="links">Resume</Link>
                 </div>
             </nav>
         )
     }
 }
+
+//<Link to="/skills" className="links">Skills</Link>
 
 export default NavBar; 
