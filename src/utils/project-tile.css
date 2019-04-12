@@ -1,6 +1,6 @@
 .project-tile{
     border-radius: 2px;
-    background-color: #777777;
+    background-color: #c9c7c7;
     width: 60%;
     margin: 1rem;
     display: flex;
@@ -24,12 +24,12 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  background-color: #777777;
+  background-color: #c9c7c7;
   cursor: pointer;
   border: none;
   border-radius: 10px;
 }
 
 .expand:hover{
-  background-color: #6b6262;
+  background-color: #777777;
 }
