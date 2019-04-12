@@ -12,6 +12,7 @@ import Resume from './comps/resume/resume';
 class App extends Component {
   render() {
     return (
+      <header className="App-header">
       <HashRouter>
         <div>
           <NavBar />
@@ -25,6 +26,7 @@ class App extends Component {
           </div>
         </div>
       </HashRouter>
+      </header>
     );
   }
 }
