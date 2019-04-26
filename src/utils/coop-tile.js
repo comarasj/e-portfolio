@@ -6,7 +6,7 @@ class CoopTile extends Component {
     constructor() {
         super();
         this.state = {
-            expanded: false,
+            expanded: true,
         }
     }
 

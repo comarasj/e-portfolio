@@ -12,7 +12,7 @@ class Skills extends Component {
     render() {
         return (
             <div>
-                <h1 className="header">Technical Skills</h1>
+                <h1 className="header">Skills</h1>
                 <div>
                     <p></p>
                 </div>

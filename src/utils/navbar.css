@@ -41,3 +41,8 @@
 .links:active{
    font-weight: bold;
 }
+
+.is-active{
+   text-decoration: underline;
+   font-weight: bold;
+}
